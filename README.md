@@ -1,8 +1,6 @@
 # Get-Amenities (Google API)
 
 
-# Google Places Data Extractor
-
 This Python script fetches data from the Google Places API based on specified search parameters and saves the results to an Excel file.
 
 ## Description
