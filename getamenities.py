@@ -51,7 +51,7 @@ if all_places:
     df = pd.DataFrame(data, columns=['Name', 'Types', 'Address', 'Latitude', 'Longitude'])
 
     # Export DataFrame to Excel
-    excel_file = 'patna_amenities2.xlsx'
+    excel_file = 'city_amenities.xlsx'
     df.to_excel(excel_file, index=False)
     print(f'Data saved to {excel_file}')
 else:
