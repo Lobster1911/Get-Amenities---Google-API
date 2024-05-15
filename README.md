@@ -75,19 +75,19 @@ The script retrieves information about places near a specified location using th
 
 3. Obtain a Google Places API key from the [Google Cloud Console](https://console.cloud.google.com/apis/credentials) and replace the `API_KEY` variable in the script with your own API key.
 
+4. Ensure your coordinates are stored in an Excel file with columns for latitude and longitude. Update the `excel_file` variable in the script with the path to your Excel file.
+
 ## Usage
 
-1. Ensure your coordinates are stored in an Excel file with columns for latitude and longitude.
+1. Open the script in a Python environment.
 
-2. Open the script in a Python environment.
-
-3. Customize the search parameters as needed:
+2. Customize the search parameters as needed:
    - `radius`: The search radius in meters.
    - `keyword`: A term to be matched against all content that Google has indexed for a place.
    - `type`: Restricts the results to places matching the specified type.
    - `language`: The language code, indicating in which language the results should be returned.
 
-4. Run the script. The fetched data will be saved to an Excel file.
+3. Run the script. The fetched data will be saved to an Excel file.
 
 ## Multithreading
 
